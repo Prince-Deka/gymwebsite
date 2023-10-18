@@ -24,6 +24,7 @@ const Navbar = () => {
 				<Link to="/" className="logo" onClick={handleNavToggle}>
 					<img src={Logo} alt="Nav-logo" />
 				</Link>
+				<h1>Prince</h1>
 				<ul
 					className={`nav__links ${isNavShowing ? "show__nav" : "hide__nav"}`}
 				>
